@@ -1,0 +1,96 @@
+  body {
+    background-color: black;
+    align-items: center;
+  }
+  h1 {
+    color: #8F43EE;
+    font-size: 60px;
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  label {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  input[type="submit"] {
+    margin-top: 20px;
+    background-color: #2D2727;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #413543;
+  }
+
+  .resultado {
+    font-family: 'Squada One', cursive;
+    color: #8F43EE;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .jogadas {
+    font-style: italic;
+    color: #8F43EE;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .containertwo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .botao {
+    background-color: #2D2727;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: #413543;
+  }
+
+  .gif {
+    margin-top: 20px;
+  }
